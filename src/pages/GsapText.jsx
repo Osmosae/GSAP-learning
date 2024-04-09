@@ -12,11 +12,11 @@ const GsapText = () => {
 
     gsap.fromTo(".para", {
       opacity: 0,
-      y: 10,
+      x: 30,
     }, {
       ease: "power1.inOut",
       opacity: 1,
-      y: 0,
+      x: 0,
       delay: 0.2,
       duration: 1,
       stagger: 0.2,
@@ -26,7 +26,7 @@ const GsapText = () => {
 
   return (
     <main>
-      <h1 id="text" className="opacity-0 translate-y-10">
+      <h1 id="text" className="opacity-0 -translate-y-5">
         GsapText
       </h1>
 
